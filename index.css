@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    color: #171717;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+.white {
+    padding: 3.5em;
+    padding-left: 6em;
+    background-color: #FFFFFF;
+    flex-basis: 30%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yellow {
+    padding: 3.5em;
+    padding-right: 6em;
+    background-color: #e8d9c5;
+    flex-basis: 70%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.beige {
+    padding: 3.5em;
+    padding-left: 6em;
+    background-color: #FEF6E7;
+    flex-basis: 30%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pink {
+    position: relative;
+    padding: 3.5em;
+    padding-right: 6em;
+    background-color: #f5c9d3;
+    flex-basis: 70%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    position: relative;
+    max-width: 20%;
+    top: -6%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+ol, ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    margin-left: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#bgtext {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    color: #FEF6E7;
+    font-size: 180px;
+    top: 38%;
+    left: 37%;
+}
+
+.buttons {
+    margin-top: 10%;
+}
+
+.button {
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    background-color: #4ca686;
+}
+
+.button-red {
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    background-color: #a65749;
+}
+
+.button-orange {
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    background-color: #a66749;
+}
+
+img {
+    position: absolute;
+    max-width: 40%;
+    height: auto;
+}
+
+.cat1 {
+    bottom: 20%;
+    left: 5%;
+}
+
+.cat2 {
+    bottom: 20%;
+    right: 2%;
+}
+
+.cat3 {
+    bottom: 40%;
+    left: 25%
+}
